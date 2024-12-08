@@ -1,0 +1,17 @@
+/* Basic editor styles */
+@use "./headings";
+@use "./bulletlist";
+@use "./tasklist";
+@use "./table";
+@use "./image";
+
+.tiptap {
+  --gray-1: #f8f9fa;
+  --gray-2: #e9ecef;
+  --gray-3: #dee2e6;
+  --purple: #6f42c1;
+
+  :first-child {
+    margin-top: 0;
+  }
+}
